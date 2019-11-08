@@ -18,5 +18,10 @@
 - git reset --hard HEAD^ 版本回退
 - git reset --hard 1094a 再回到回退前的版本
 - git reflog 记录每一次命令
+- git checkout -- readme.txt  把readme.txt文件在工作区的修改全部撤销
+`git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令`
+- git rm <文件名> 删除文件
 
-
+### 3. 远程仓库
+- ssh-keygen -t rsa -C "lijing062815@163.com"  远端仓库
+- git remote add origin git@github.com:lijing062815/learngit.git 本地和远端仓库连接
